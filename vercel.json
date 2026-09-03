@@ -4,6 +4,10 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
+      "source": "/api/pakasir/transactioncreate/:method",
+      "destination": "/api/pakasir/transactioncreate?method=:method"
+    },
+    {
       "source": "/((?!api/|assets/|uploads/|data_storage/|sw\\.js|manifest\\.json|.*\\.[a-zA-Z0-9]+$).*)",
       "destination": "/index.html"
     }
