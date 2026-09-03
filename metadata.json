@@ -1,0 +1,8 @@
+{
+  "name": "Remix lesin supabase",
+  "description": "LMS Learning Management System modern dan lengkap dengan kursus video, kuis interaktif, e-sertifikat, sesi live, integrasi pembayaran Pakasir, dan dashboard admin komprehensif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
