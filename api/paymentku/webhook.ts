@@ -1,7 +1,7 @@
 // Vercel Serverless Function: Paymentku Webhook Receiver Endpoint
 // Path: /api/paymentku/webhook
 
-import crypto from 'crypto';
+import * as crypto from 'crypto';
 
 export default async function handler(req: any, res: any) {
   // Setup standard CORS headers
